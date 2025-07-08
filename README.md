@@ -1,12 +1,12 @@
 # Projet Data Science : Dashboard de Credit Scoring & Veille Technique
 
-## 📝 Description du Projet
+## Description du Projet
 
 Ce projet a pour objectif de développer un **dashboard interactif** pour aider les chargés de relation client à visualiser et interpréter les décisions d’octroi de crédit. Il comprend également une **veille technique** portant sur une nouvelle méthode de modélisation de données d’images ou de textes.
 
 ---
 
-## 🎯 Objectifs pédagogiques
+## 🎯 Objectifs
 
 - Réaliser un tableau de bord à destination d’un public non technique.
 - Présenter de manière intelligible les résultats d’un modèle de classification de crédit.
@@ -16,9 +16,9 @@ Ce projet a pour objectif de développer un **dashboard interactif** pour aider 
 
 ---
 
-## 📊 Partie 1 : Conception d’un Dashboard de Credit Scoring
+## Partie 1 : Conception d’un Dashboard de Credit Scoring
 
-### 🧠 Contexte
+### Contexte
 
 L’entreprise **Prêt à dépenser** souhaite accroître la **transparence** de ses décisions d’octroi de crédit. Le tableau de bord doit permettre aux chargés de clientèle de :
 
@@ -26,7 +26,7 @@ L’entreprise **Prêt à dépenser** souhaite accroître la **transparence** de
 - expliquer la prédiction,
 - comparer un profil client avec des groupes similaires.
 
-### ⚙️ Technologies utilisées
+### Technologies utilisées
 
 - **Python 3.9+**
 - **Streamlit** pour l’interface utilisateur
@@ -35,7 +35,7 @@ L’entreprise **Prêt à dépenser** souhaite accroître la **transparence** de
 - **SHAP** pour l’interprétabilité
 - **Render.com** ou **Streamlit Cloud** pour le déploiement
 
-### 📦 Fonctionnalités principales
+### Fonctionnalités principales
 
 - Visualisation du score de crédit sous forme de jauge
 - Analyse locale et globale des variables explicatives (SHAP)
@@ -46,13 +46,13 @@ L’entreprise **Prêt à dépenser** souhaite accroître la **transparence** de
 
 ---
 
-## 🧪 Partie 2 : Veille Technique – Classification d’Images
+## Partie 2 : Veille Technique – Classification d’Images
 
-### 🎯 Objectif
+### Objectif
 
 Tester une **architecture récente de Deep Learning** (moins de 5 ans) sur un jeu de données d’images utilisé précédemment. Comparaison avec une approche plus classique de type CNN (VGG16).
 
-### 🔬 Méthodologie
+### Méthodologie
 
 1. **Choix d’un modèle de l’état de l’art** : Vision Transformer (ViT)
 2. **Sources bibliographiques** : Arxiv, PapersWithCode, Medium, etc.
@@ -62,7 +62,7 @@ Tester une **architecture récente de Deep Learning** (moins de 5 ans) sur un je
    - Évaluation comparative via classification report et matrice de confusion
 4. **Rédaction d’une note méthodologique**
 
-### 📈 Résultats
+### Résultats
 
 - Le modèle **ViT** surpasse **VGG16** sur toutes les métriques (précision, rappel, f1-score)
 - Meilleure robustesse, meilleure capacité à distinguer les classes proches
@@ -70,10 +70,10 @@ Tester une **architecture récente de Deep Learning** (moins de 5 ans) sur un je
 
 ---
 
-🚀 Déploiement
+Déploiement
 L’application est déployée sur Render/Streamlit Cloud.
 
-📚 Ressources utilisées
+Ressources utilisées
 Streamlit Documentation
 
 PapersWithCode - Vision Transformer
@@ -82,7 +82,7 @@ SHAP Explainer
 
 Scikit-learn Documentation
 
-🙋‍♂️ Auteurs
+Auteurs
 Oumou Faye — Data Scientist
 Mentor : Medina Hadjem
 
