@@ -6,7 +6,7 @@ Ce projet a pour objectif de développer un **dashboard interactif** pour aider 
 
 ---
 
-## 🎯 Objectifs
+## Objectifs
 
 - Réaliser un tableau de bord à destination d’un public non technique.
 - Présenter de manière intelligible les résultats d’un modèle de classification de crédit.
